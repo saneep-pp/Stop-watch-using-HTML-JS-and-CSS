@@ -1,0 +1,42 @@
+.stopwatch{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.812),
+        rgba(255, 255, 255, 0.5)),
+        url(images/background.jpg);
+
+    max-width: 600px;
+    
+   
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 40px 0;
+    margin: 200px auto 0;
+    text-align: center;
+    
+}
+.stopwatch h1{
+    font-family:'Times New Roman';
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: -3px -2px  gray;
+
+}
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.controls img{
+    
+    width: 60px;
+    margin: 10px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: rgb(220, 218, 218);
+        border-radius: 5px;
+        box-shadow: -4px -2px gray;
+    }
+}
